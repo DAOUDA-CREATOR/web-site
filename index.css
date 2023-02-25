@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  header {
+    position: relative; /* Set the initial position to relative */
+    transition: top 0.3s ease-in-out; /* Add a transition for smooth animation */
+  }
+
+  header.fixed {
+    position: fixed; /* Change the position to fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 100%; /* Make it full width */
+    background-color: #fff; /* Add a background color to make it stand out */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    z-index: 999; /* Make sure it's on top of everything else */
+  }
+  /* Styles for screens with a minimum width of 768px */
+}
